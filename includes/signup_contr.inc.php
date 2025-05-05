@@ -3,7 +3,7 @@
 declare(strict_types=1); // we let our code have type declaration
 
 function is_input_empty(array $params) {
-	foreach ($params as $key => $param) {
+	foreach ($params as $param) {
 		if (empty($param)) {
 			return true;
 		}
